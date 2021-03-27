@@ -1,0 +1,12 @@
+{
+    "mysql":{
+        "schema": "guaiacadb",
+        "usuario": "dba",
+        "senha": "pegasos93",
+        "host":"127.0.0.1"
+
+    },
+    "api":{
+        "porta": 3000
+    }
+}

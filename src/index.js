@@ -2,11 +2,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const config = require('config')
 
-const app = express()
-
+const app =  express()
 
 app.use(bodyParser.json())
 
 app.listen(config.get('api.porta'), ()=>{
-    console.log('Service Working')
+    console.log("API Working!!")
 })
